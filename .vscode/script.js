@@ -8,7 +8,7 @@ form.addEventListener("change", save)
 function add(){
    const today = new Date().toLocaleDateString('pt-bt').slice(0, -5)
   //Usado para adicionar dias anteriores
-   // const today ="20/01"
+   // const today ="14/01"
     const dayExists = nlwSetup.dayExists(today)
 
 if(dayExists){
